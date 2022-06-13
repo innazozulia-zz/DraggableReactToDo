@@ -56,6 +56,8 @@ input {
 .field {
   display: flex;
   flex-direction: row;
+  align-items: center;
+  text-align: center;
 }
 
 .delete__input {
@@ -78,7 +80,7 @@ input {
   border: none;
   border-radius: 6px;
   width: 55px;
-  height: 30px;
+  height: 32px;
   cursor: pointer;
   box-shadow: rgba(0, 0, 0, 50%) 0px 10px 10px;
   transition: background-color 0.6s ease-out;
